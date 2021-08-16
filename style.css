@@ -126,11 +126,11 @@ a:hover, a:active {
 }
 
 .gbutton{
-    margin-top: 85px;
+    margin-bottom: -85px;
 }
 
 .button{
-    margin-top: 170px;
+    margin-bottom: -170px;
 }
 
 body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
