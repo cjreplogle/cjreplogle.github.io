@@ -96,7 +96,7 @@ a:hover, a:active {
     margin-bottom: 90%;
     text-align: center;
 }
-.button, .abutton, .gbutton,
+.button, .abutton, .gbutton, .bbutton,
 .rbutton{
     background: white;
     position: absolute;
@@ -111,18 +111,27 @@ a:hover, a:active {
     text-align: center;
 }
 
-.button{
-    margin-top: 200px;
-}
+
 
 .abutton{
-    margin-top: -200px;
+    margin-bottom: 170px;
 }
 
-.gbutton{
-    margin-top: -66.67px;
+.bbutton{
+    margin-bottom: 85px;
 }
 
 .rbutton{
-    margin-top: 66.67px;
+    margin-bottom: 0px;
 }
+
+.gbutton{
+    margin-top: 85px;
+}
+
+.button{
+    margin-top: 170px;
+}
+
+body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
+#particles-js{ position:absolute; width: 100%; height: 100%; background-color: argb(0,0,0,0); background-size: cover; background-position: 50%, 50%}
